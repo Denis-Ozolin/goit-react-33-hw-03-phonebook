@@ -19,12 +19,18 @@ export const Form = styled.form`
   }
 
   & button {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 8px 16px;
     background-color: slategrey;
     color: azure;
     font-size: 18px;
     border-color: azure;
     cursor: pointer;
+    transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  }
+
+  & button:hover{
+    background-color: #24bd57;
   }
 `;

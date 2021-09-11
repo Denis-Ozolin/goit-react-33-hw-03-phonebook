@@ -12,17 +12,22 @@ export const List = styled.ul`
     align-items: baseline;
 
     & p{
-      color: #c9e955;
+      color: azure;
     }
 
     & button {
       width: 100px;
       padding: 8px 16px;
       background-color: slategrey;
-      border-color: tomato;
-      color: tomato;
+      border-color: azure;
+      color: azure;
       font-size: 16px;
       cursor: pointer;
+      transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    & button:hover{
+      background-color: tomato;
     }
   }
 `;
